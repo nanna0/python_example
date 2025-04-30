@@ -147,4 +147,6 @@ print(11//2)
 print(11%2)
 
 print(10**3)
-print(10^1)
+
+a,b = input().split("-")
+print(a,b)
