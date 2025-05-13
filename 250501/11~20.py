@@ -64,7 +64,7 @@ string = input("문자를 공백으로 구분하여 입력하세요.").split()
 print(','.join(string))
 
 ## 문제 20: 온도 단위 변환기
-tem_input = int(input("온도를 입력하세요."))
+tem_input = float(input("온도를 입력하세요."))
 unit = input("단위를 C와 F중 입력하세요.")
 if unit == "C":
     tem = tem_input * 9/5 + 32
